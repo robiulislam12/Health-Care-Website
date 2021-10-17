@@ -12,7 +12,7 @@ const useFirebase = () =>{
     //State Control
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
 
     //Firebase Auth 
     const auth = getAuth();
@@ -22,15 +22,8 @@ const useFirebase = () =>{
         const googleProvider = new GoogleAuthProvider()
         
         //Sign In with firebase Popup
-        signInWithPopup(auth, googleProvider)
-        .then(result => {
-            setUser(result.user)
-        })
-        .catch(error =>{
-            setError(error.message)
-        }).finally(() =>{
-            setIsLoading(true)
-        })
+       return  signInWithPopup(auth, googleProvider)
+        
     }
 
     //Observed User 
@@ -64,6 +57,7 @@ const useFirebase = () =>{
         error,
         isLoading,
         logOut,
+        setError,
         signInWithGoogle
     }
 }
