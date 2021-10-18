@@ -21,9 +21,9 @@ export default function Services() {
 
   return (
     <div className="container py-10">
-      <div className="grid grid-cols-2 gap-4  md:py-10">
+      <div className="grid lg:grid-cols-2 gap-4  md:py-10">
         <div>
-          <h2 className="text-5xl">WelCome to Our <span style={{color:'#0CB8B6'}}>{service?.serviceName}</span></h2>
+          <h2 className="lg:text-5xl md:text-4xl">WelCome to Our <span style={{color:'#0CB8B6'}}>{service?.serviceName}</span></h2>
           <h4 className="text-lg py-4">{service?.shortDescription}</h4>
           <p>
           {service?.description}

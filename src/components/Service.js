@@ -13,11 +13,11 @@ export default function Service({service}) {
     }
 
     return (
-        <div style={{backgroundColor: `${service.bgColor}`}} className='rounded p-4 hover:bg-pink-300 cursor-pointer'>
-            <img className='w-20' src={service.serviceIcon} alt={service.serviceName} />
-            <h3 className='py-2'>{service.serviceName}</h3>
+        <div style={{backgroundColor: `${service.bgColor}`}} className='rounded p-4 hover:bg-pink-300 cursor-pointer md:text-center lg:text-left'>
+            <img className='w-30' src={service.serviceIcon} alt={service.serviceName} />
+            <h3 className='py-2 lg:text-3xl md:text-2xl'>{service.serviceName}</h3>
             <p>{service.shortDescription}</p>
-            <Button onClick={handleDynamic}>See more</Button>
+            <Button className='mt-2'onClick={handleDynamic}>See more</Button>
         </div>
     )
 }

@@ -9,7 +9,7 @@ export default function Services() {
     },[])
 
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-2">
             {
                 services.map(service => <Service service={service} key={service.index}/>)
             }

@@ -29,6 +29,8 @@ a {
 }
 ul li {
   list-style: none;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 h1,
@@ -59,4 +61,14 @@ h6 {
 
  img.whc-img {
   margin-left: 80px;
+}
+
+@media(max-width: 667px){
+  img.whc-img {
+    margin-left: 80px;
+  }
+  .hero-area{
+    flex-direction: column;
+    padding: 30px 0;
+  }
 }
