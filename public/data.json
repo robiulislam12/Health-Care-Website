@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "616ce15618d1ff38b846cfc7",
+    "index": 0,
+    "serviceName": "Crutches",
+    "bgColor": "#E6F8F8",
+    "serviceIcon": "https://i.ibb.co/RDTNjkd/Crutches.png",
+    "fee": "$29.25",
+    "picture": "https://i.ibb.co/8jZ0Q52/crutches-1.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "_id": "616ce156f9b96664a6ffcaa7",
+    "index": 1,
+    "serviceName": "X-ray",
+    "bgColor": "#FDECE9",
+    "serviceIcon": "https://i.ibb.co/QNyH3qP/x-ray.png",
+    "fee": "$34.11",
+    "picture": "https://i.ibb.co/jvrQcvb/xray.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "_id": "616ce156e5b7e70c8d9b8210",
+    "index": 2,
+    "serviceName": "Pulmonary",
+    "bgColor": "#EAF7EC",
+    "serviceIcon": "https://i.ibb.co/BKXz5xT/pulmonary.png",
+    "fee": "$32.93",
+    "picture": "https://i.ibb.co/X568ygP/pulmonary-1.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "_id": "616ce1569ae2d94f8381700b",
+    "index": 3,
+    "serviceName": "Cardiology",
+    "bgColor": "#E7EFFB",
+    "serviceIcon": "https://i.ibb.co/N68Vmt5/pulmodonary.png",
+    "fee": "$16.49",
+    "picture": "https://i.ibb.co/mBDsKBz/cardiology-1.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "_id": "616ce156e8faa161c917c205",
+    "index": 4,
+    "serviceName": "DentalCare",
+    "bgColor": "#FEF7E9",
+    "serviceIcon": "https://i.ibb.co/7QZY51F/dental.png",
+    "fee": "$34.91",
+    "picture": "https://i.ibb.co/P6L8sYv/dental-care.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "_id": "616ce156aa91ff88b44d9bce",
+    "index": 5,
+    "serviceName": "Neurology",
+    "bgColor": "#F5F5F6",
+    "serviceIcon": "https://i.ibb.co/fGCgtsP/nurology.png",
+    "fee": "$24.91",
+    "picture": "https://i.ibb.co/hWsV2T2/neurology-1.png",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae sapiente quos.",
+    "description": "Oillum abrem deleniti adipisci suscipit dignissimos. remaining essentially unchanged. It was popularised in the with the . Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  }
+]
+
+
+
+
+

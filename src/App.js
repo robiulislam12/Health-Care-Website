@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
@@ -9,6 +9,7 @@ import NotFound from "./components/pages/NotFound";
 import Services from "./components/pages/Services";
 import PrivateRoute from "./components/PrivateRoute";
 import AuthProvider from "./contexts/AuthProvider";
+
 
 
 export default function App() {
@@ -23,7 +24,7 @@ export default function App() {
           <PrivateRoute  path='/doctors' >
             <Doctors/>
           </PrivateRoute>
-          <PrivateRoute  path='/service'>
+          <PrivateRoute  path='/service/:serviceId'>
             <Services/>
           </PrivateRoute>
           <Route  path='/contact' component={Contact}/>
