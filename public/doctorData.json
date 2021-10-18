@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Jeanette Hoff",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Paediatric Surgeon",
+      "img": "https://donto-react.netlify.app/static/media/d2.c88fc8f8.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    },
+    {
+      "id": 2,
+      "name": "Dr. Vera Hasson",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Cardiology",
+      "img": "https://donto-react.netlify.app/static/media/d3.1e523b96.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    },
+    {
+      "id": 3,
+      "name": "Dr. Matthew Hill",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Neurosurgery",
+      "img": "https://donto-react.netlify.app/static/media/d1.904490fe.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    },
+    {
+      "id": 4,
+      "name": "Dr. Philip Bailey",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Urology",
+      "img": "https://donto-react.netlify.app/static/media/d1.904490fe.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    },
+    {
+      "id": 5,
+      "name": "Dr. Sumit Saha",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Physiologist",
+      "img": "https://donto-react.netlify.app/static/media/d2.c88fc8f8.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    },
+    {
+      "id": 6,
+      "name": "Dr. Kibriya",
+      "email": "nischinto@Gmail.Com",
+      "designation": "Mentalist",
+      "img": "https://donto-react.netlify.app/static/media/d3.1e523b96.png",
+      "biography": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+    }
+]

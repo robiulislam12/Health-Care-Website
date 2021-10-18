@@ -6,6 +6,7 @@ import Img2 from "../../assets/2.svg";
 import Img3 from "../../assets/3.svg";
 import Services from "../Services";
 import HeroImg from "../../assets/hero-img.png";
+import Blogs from "../Blogs";
 
 export default function Home() {
   return (
@@ -36,10 +37,15 @@ export default function Home() {
         </div>
 
         {/* Services  */}
-
         <div className="py-8">
           <h1 className="text-center text-4xl py-4">Our Services</h1>
           <Services />
+        </div>
+
+        {/* Blog Service */}
+        <div className="py-8">
+          <h1 className="text-center text-4xl py-4">Our Blogs</h1>
+          <Blogs />
         </div>
       </div>
     </>
