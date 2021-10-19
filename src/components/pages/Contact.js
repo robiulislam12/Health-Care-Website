@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="container">
       <div className="py-10 w-100 grid lg:grid-cols-2 gap-4">
         <div>
-          <h1 className="text-4xl mb-3">Request Appointment</h1>
+          <h1 className="text-4xl mb-3">Requested to Appointment</h1>
           <form>
             <input
               type="text"

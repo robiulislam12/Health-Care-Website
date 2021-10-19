@@ -21,14 +21,14 @@ export default function Header() {
     }
 
     return (
-        <Navbar className='bg-green-400' expand="lg">
+        <Navbar className='bg-green-400 ' expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img src={Logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto fw-bold">
+                    <Nav className="mx-auto fw-bold">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
@@ -43,7 +43,9 @@ export default function Header() {
                             </>
                         )
                         : 
-                            <Button variant="danger" onClick={redirectUser}>Login</Button>
+                            <Link to="/login">
+                                <Button variant="danger">Login</Button>
+                            </Link>
                         
                     }
                     

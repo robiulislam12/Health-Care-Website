@@ -1,0 +1,49 @@
+[debug] [2021-10-19T11:27:58.043Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T11:27:58.048Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\robiu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-10-19T11:27:58.049Z] CLI Version:   9.20.0
+[debug] [2021-10-19T11:27:58.049Z] Platform:      win32
+[debug] [2021-10-19T11:27:58.049Z] Node Version:  v16.3.0
+[debug] [2021-10-19T11:27:58.051Z] Time:          Tue Oct 19 2021 17:27:58 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T11:27:58.051Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T11:27:58.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T11:27:58.338Z] > authorizing via signed-in user (robiul215565@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-10-19T11:27:58.452Z] [hub] writing locator at C:\Users\robiu\AppData\Local\Temp\hub-health-care-d61dd.json
+[debug] [2021-10-19T11:27:58.550Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T11:27:58.551Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T11:27:58.784Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 19 Oct 2021 11:27:58 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T11:27:58.801Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/health-care-d61dd/sites 
+[debug] [2021-10-19T11:28:00.383Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/health-care-d61dd/sites 200
+[debug] [2021-10-19T11:28:00.383Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/health-care-d61dd/sites {"sites":[{"name":"projects/436312664171/sites/health-care-d61dd","defaultUrl":"https://health-care-d61dd.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-10-19T11:28:00.384Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/health-care-d61dd/webApps/-/config [none]
+[debug] [2021-10-19T11:28:08.313Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/health-care-d61dd/webApps/-/config 503
+[debug] [2021-10-19T11:28:08.314Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/health-care-d61dd/webApps/-/config {"error":{"code":503,"message":"Deadline exceeded from RTDB Metadata Server.","status":"UNAVAILABLE"}}
+[debug] [2021-10-19T11:28:08.316Z] fetchWebSetup error: FirebaseError: HTTP Error: 503, Deadline exceeded from RTDB Metadata Server.
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:28:55 +0000] "GET / HTTP/1.1" 200 689 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:28:55 +0000] \"GET / HTTP/1.1\" 200 689 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:28:57 +0000] "GET /%PUBLIC_URL%/favicon.png HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:28:57 +0000] \"GET /%PUBLIC_URL%/favicon.png HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:28:57 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:28:57 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:29:02 +0000] "GET / HTTP/1.1" 200 689 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:29:02 +0000] \"GET / HTTP/1.1\" 200 689 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:29:03 +0000] "GET /%PUBLIC_URL%/favicon.png HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:29:03 +0000] \"GET /%PUBLIC_URL%/favicon.png HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Oct/2021:11:29:03 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Oct/2021:11:29:03 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36\""}}
+[debug] [2021-10-19T11:29:14.737Z] Received signal SIGHUP 1
