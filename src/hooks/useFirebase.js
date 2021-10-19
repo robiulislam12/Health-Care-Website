@@ -1,4 +1,4 @@
-import { getAuth, GoogleAuthProvider,signInWithPopup,onAuthStateChanged,signOut } from 'firebase/auth';
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut, updateProfile ,signInWithEmailAndPassword } from 'firebase/auth';
 import { useEffect, useState } from "react";
 import initializedAuthentication from "../firebase";
 
@@ -41,6 +41,28 @@ const useFirebase = () =>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
+
+    //sign in with email and password
+    const signInWithEmail = async (email, password, username) =>{
+        await createUserWithEmailAndPassword(auth, email, password);
+  
+        // update profile
+        await updateProfile(auth.currentUser, {
+          displayName: username,
+        });
+    
+        const user = auth.currentUser;
+        user({
+          ...user,
+        });
+    }
+    
+    //login user with email and password
+    const login = (email, password) => {
+        const auth = getAuth();
+        return signInWithEmailAndPassword(auth, email, password);
+      }
+
     //Log out User 
     const logOut = () => {
         setIsLoading(true)
@@ -53,12 +75,15 @@ const useFirebase = () =>{
     }
 
     return {
-        user, 
+        user,
+        setUser, 
         error,
         isLoading,
+        login,
         logOut,
         setError,
-        signInWithGoogle
+        signInWithGoogle,
+        signInWithEmail,
     }
 }
 
